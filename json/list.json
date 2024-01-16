@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://m.media-amazon.com/images/I/814htMhuuML._UF250,250_QL80_.jpg",
+        "title": "Star Boy",
+        "author": "TheWeekend",
+        "release": 2015
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/71cC32r0I4L._UF250,250_QL80_.jpg",
+        "title": "23 6451",
+        "author": "ThaSupreme",
+        "release": 2017
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/51OP3jvUiHL._AC_UF250,250_QL50_.jpg",
+        "title": "Astroworld",
+        "author": "Travis Scott",
+        "release": 2017
+    },
+    {
+        "img": "https://images.everyeye.it/img-notizie/la-copertina-album-drake-disegnata-figlio-adonis-v3-666636-250x250.webp",
+        "title": "Everyeye",
+        "author": "Drake",
+        "release": 2022
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/81qfoKPYk0L._UF250,250_QL80_.jpg",
+        "title": "I am",
+        "author": "21 Savage",
+        "release": 2018
+    },
+    {
+        "img": "https://m.media-amazon.com/images/I/91VAjJ6YxrL._UF250,250_QL80_.jpg",
+        "title": "Behance",
+        "author": "Post Malone",
+        "release": 2022
+    }
+]

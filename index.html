@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PHP Disk json</title>
+
+        <!-- Style -->
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="Spotify logo">
+            </header>
+            <main>
+                <div class="container">
+                    <article class="disk" v-for="disk in disks">
+                        <img :src='disk.img' :alt="disk.author + '\'s disk'">
+                        <div class='info'>
+                            <h1>{{ disk.title }}</h1>
+                            <p class="author">{{ disk.author }}</p>
+                            <p class="date">{{ disk.release }}</p>
+                        </div>
+                    </article>
+                </div>
+            </main>
+        </div>
+
+        <!-- Vue -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <!-- Axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- JS -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>
